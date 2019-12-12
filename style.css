@@ -1,0 +1,12 @@
+:root {
+    --text-val: #f00;
+}
+
+:root[data-theme="user-portal"] {
+    --text-val: #0f0;
+}
+
+p {
+    font-size: 40px;
+    background: var(--text-val);
+}
